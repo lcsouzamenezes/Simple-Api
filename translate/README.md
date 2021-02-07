@@ -17,4 +17,13 @@ Start the api with the following command
 ```console
 $ python Translate.py
 ```
-Head over to the "Address" and "Port" you specified and add a langauge you want to translate and the content (example: localhost:8080/german/Hello Friend)
+Head over to the "Address" and "Port" you specified and add a langauge you want to translate and the content 
+(example: localhost:8080/german/Hello Friend)
+```json
+{
+  "Input": "Hello Friend", 
+  "Langauge": "german", 
+  "Output": "Hallo, Freund", 
+  "Status": "Success"
+}
+```
