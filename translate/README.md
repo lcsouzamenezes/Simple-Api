@@ -42,7 +42,7 @@ Head over to the "Address" and "Port" you specified and add a langauge you want 
 }
 ```
 * Incorrect Translation Name
-````json
+```json
 {
   "Input": "He", 
   "Langauge": "examplename", 
