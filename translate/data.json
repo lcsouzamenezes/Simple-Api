@@ -1,6 +1,6 @@
 {
     "Address": "192.168.56.1",
     "Port": "8080",
-    "Debug": true,
-    "MaxLength": 2
+    "Debug": false,
+    "MaxLength": 50
 }
