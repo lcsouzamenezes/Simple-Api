@@ -47,7 +47,7 @@ Head over to the "Address" and "Port" you specified and add a langauge you want 
   "Input": "He", 
   "Langauge": "examplename", 
   "Output": "'EXAMPLENAME' IS AN INVALID TARGET LANGUAGE . EXAMPLE: LANGPAIR=EN|IT USING 2 LETTER ISO OR RFC3066 LIKE ZH-CN. ALMOST ALL LANGUAGES SUPPORTED BUT SOME MAY HAVE NO CONTENT", 
-  "Status": "Success"
+  "Status": "Fail"
 }
 ```
 * Content too long
