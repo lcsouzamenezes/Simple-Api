@@ -27,3 +27,33 @@ Head over to the "Address" and "Port" you specified and add a langauge you want 
   "Status": "Success"
 }
 ```
+
+## Use and output
+
+`localhost:8080/<string:Language>/<string:Content>`
+
+* Success 
+```json
+{
+  "Input": "Hello Friend", 
+  "Langauge": "german", 
+  "Output": "Hallo, Freund", 
+  "Status": "Success"
+}
+```
+* Incorrect Translation Name
+````json
+{
+  "Input": "He", 
+  "Langauge": "examplename", 
+  "Output": "'EXAMPLENAME' IS AN INVALID TARGET LANGUAGE . EXAMPLE: LANGPAIR=EN|IT USING 2 LETTER ISO OR RFC3066 LIKE ZH-CN. ALMOST ALL LANGUAGES SUPPORTED BUT SOME MAY HAVE NO CONTENT", 
+  "Status": "Success"
+}
+```
+* Content too long
+```json
+{
+  "Code": "Content is too long (Max 2)", 
+  "Status": "Fail"
+}
+```
