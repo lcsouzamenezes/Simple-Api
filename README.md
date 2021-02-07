@@ -4,7 +4,8 @@
 
   <br>
   <br>
-  <span>A bunch of simple but useful apis<br></span>
+  <span>A bunch of simple but useful apis, not just everyday easy to work problems but<br>
+Usefull project based application systems<br></span>
   <br>
   <a target="_blank" href="https://www.python.org/" title="Python version"><img src="https://img.shields.io/badge/python-3-green.svg"></a>
 </p>
